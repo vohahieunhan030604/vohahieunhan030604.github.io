@@ -1,0 +1,81 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+  }
+
+/* Global */
+.container{
+  margin-left: 90px;
+  
+
+}
+
+ul{
+margin-top: -10px;
+}
+
+/* Header **/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:greenyellow ;
+  text-decoration:inherit;
+  text-transform:uppercase ;
+  font-size:auto;
+}
+
+header li{
+  float:left;
+  display: inline-block;
+  padding: 15px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+    margin: 5px;
+    font-size:35px;
+}
+
+header nav{
+  float:right;
+  margin-top:18px;
+}
+
+header .highlight, header .current a{
+  color:#ff751a;
+  font-weight: 20px;
+  
+}
+
+header a:hover{
+  color:#e8491d;
+  font-weight:20px;
+}
+
+
+footer{
+    background-color:#b3ffe0;
+    color:#ff531a;
+    text-align:center;
+    padding:30px;
+    margin-top:20px;
+    font-weight: bold;
+}
+
+
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width: 200px;
+    margin-bottom:10px;
+  }
